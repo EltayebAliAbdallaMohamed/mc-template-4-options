@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12304a">
+  <title>Accessible Gap-Fill Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="quiz-app">
+    <header class="page-header">
+      <p class="eyebrow">Accessible learning</p>
+      <h1>Gap-Fill Quiz</h1>
+      <p class="intro">Choose a quiz, listen to the question and answer options, then select your answer.</p>
+    </header>
+
+    <section class="qr-section" aria-label="Quiz QR code">
+      <button
+        type="button"
+        id="toggle-qr"
+        class="button button-primary"
+        aria-expanded="false"
+        aria-controls="qr-panel"
+      >
+        Show QR code
+      </button>
+
+      <div id="qr-panel" class="qr-panel" hidden>
+        <p>Scan this code to open the quiz:</p>
+        <div id="qr-code" class="qr-code" aria-label="QR code for this quiz"></div>
+        <p id="qr-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="quiz-card" aria-labelledby="quiz-title">
+      <div class="quiz-picker">
+        <label for="quiz-select">Choose a quiz</label>
+        <select id="quiz-select" name="quiz">
+          <option value="">Loading quizzes…</option>
+        </select>
+      </div>
+
+      <div id="quiz-info" class="quiz-info" aria-live="polite">
+        <h2 id="quiz-title">Loading quiz…</h2>
+        <p id="quiz-details"></p>
+      </div>
+
+      <div class="question-heading">
+        <p id="question-progress" class="question-progress" aria-live="polite"></p>
+      </div>
+
+      <section class="question-panel" aria-labelledby="question-label">
+        <h3 id="question-label">Question</h3>
+        <p id="question-text" class="question-text"></p>
+
+        <div class="speech-controls" role="group" aria-label="Speech controls">
+          <button type="button" id="speak-question" class="button button-primary">
+            🔊 Read question
+          </button>
+          <button type="button" id="speak-options" class="button button-primary">
+            🔊 Read all options
+          </button>
+          <button type="button" id="read-selected-text" class="button button-primary">
+            🔊 Read selected text
+          </button>
+          <button type="button" id="stop-speech" class="button button-secondary">
+            Stop speech
+          </button>
+        </div>
+
+        <p id="speech-status" class="status-message" role="status" aria-live="polite"></p>
+      </section>
+
+      <form id="answer-form">
+        <fieldset id="options-fieldset" class="options-fieldset">
+          <legend>Select one answer</legend>
+          <div id="options-list" class="options-list"></div>
+        </fieldset>
+
+        <div class="answer-controls">
+          <button type="submit" class="button button-submit">Check answer</button>
+          <p id="answer-feedback" class="feedback" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <nav class="question-navigation" aria-label="Question navigation">
+        <button type="button" id="previous-question" class="button button-secondary">
+          Previous question
+        </button>
+        <button type="button" id="next-question" class="button button-secondary">
+          Next question
+        </button>
+      </nav>
+    </section>
+
+    <p id="load-error" class="load-error" role="alert" hidden></p>
+  </main>
+</body>
+</html>

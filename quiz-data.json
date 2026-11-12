@@ -1,0 +1,121 @@
+{
+  "quizzes": [
+    {
+      "quizTitle": "Vocabulary: run-down , lonely , manage , energy , stress , diet , reduce   ",
+      "bookTitle": "Intro - Listening and Speaking",
+      "unitNumber": 6,
+      "pageNumber": 101,
+      "questions": [
+        {
+          "prompt": "Ziyad is sad. He feels ___ . He doesn't have any friends.",
+          "options": [
+            "happy",
+            "lonely",
+            "hungry"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Kate works 60 hours a week. She wants to  ____ her time at work to 40 hours.",
+          "options": [
+            "reduce",
+            "have",
+            "choose"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "prompt": "Mary is feeling a lot of ___ . She has three exams this week.",
+          "options": [
+            "money",
+            "information",
+            "stress"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "prompt": "I don't have any ___. I feel tired all the time.",
+          "options": [
+            "energy",
+            "information",
+            "stress"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "prompt": "Samia has an unhealthy ___. She has pizza and soda for lunch every day.",
+          "options": [
+            "stress",
+            "energy",
+            "diet"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "prompt": "Fatima doesn't ___ her schedule very well. She is always late, and she often forgets to do her homework.",
+          "options": [
+            "know",
+            "manage",
+            "reduce"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Mary is working two jobs and taking four classes. She looks really ___.",
+          "options": [
+            "know",
+            "lonely",
+            "run-down"
+          ],
+          "answerIndex": 2
+        }
+
+      ]
+    },
+    {
+      "quizTitle": "Unit 6 - Grammar: Can and Should",
+      "bookTitle": "Intro - Listening and Speaking",
+      "unitNumber": 6,
+      "pageNumber": 114,
+      "questions": [
+        {
+          "prompt": "You ___ eat junk food. It is bad for you." ,
+          "options": [
+            "can't",
+            "shouldn't",
+            "should"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "John is good at languages. He  ___  speak English, French, and Arabic." ,
+          "options": [
+            "can't",
+            "should",
+            "can"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "prompt": "John sleeps about 3 hours a night. He  ___  sleep more." ,
+          "options": [
+            "can't",
+            "should",
+            "can"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Try to relax. You  ___  worry all the time." ,
+          "options": [
+            "can't",
+            "should",
+            "shouldn't"
+          ],
+          "answerIndex": 2
+        }
+
+      ]
+    }
+  ]
+}
