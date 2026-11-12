@@ -11,7 +11,8 @@
           "options": [
             "happy",
             "lonely",
-            "hungry"
+            "hungry",
+            "tired"
           ],
           "answerIndex": 1
         },
@@ -20,7 +21,8 @@
           "options": [
             "reduce",
             "have",
-            "choose"
+            "choose",
+            "find"
           ],
           "answerIndex": 0
         },
@@ -29,7 +31,8 @@
           "options": [
             "money",
             "information",
-            "stress"
+            "stress",
+            "time"
           ],
           "answerIndex": 2
         },
@@ -38,7 +41,8 @@
           "options": [
             "energy",
             "information",
-            "stress"
+            "stress",
+            "sleep"
           ],
           "answerIndex": 0
         },
@@ -47,7 +51,8 @@
           "options": [
             "stress",
             "energy",
-            "diet"
+            "diet",
+            "water"
           ],
           "answerIndex": 2
         },
@@ -56,7 +61,8 @@
           "options": [
             "know",
             "manage",
-            "reduce"
+            "reduce",
+            "plan"
           ],
           "answerIndex": 1
         },
@@ -65,7 +71,8 @@
           "options": [
             "know",
             "lonely",
-            "run-down"
+            "run-down",
+            "angry"
           ],
           "answerIndex": 2
         }
@@ -83,7 +90,8 @@
           "options": [
             "can't",
             "shouldn't",
-            "should"
+            "should",
+            "can"
           ],
           "answerIndex": 1
         },
@@ -92,7 +100,8 @@
           "options": [
             "can't",
             "should",
-            "can"
+            "can",
+            "must"
           ],
           "answerIndex": 2
         },
@@ -101,7 +110,8 @@
           "options": [
             "can't",
             "should",
-            "can"
+            "can",
+            "doesn't"
           ],
           "answerIndex": 1
         },
@@ -110,7 +120,8 @@
           "options": [
             "can't",
             "should",
-            "shouldn't"
+            "shouldn't",
+            "must"
           ],
           "answerIndex": 2
         }
